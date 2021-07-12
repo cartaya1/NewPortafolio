@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5c7f223443.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Portfolio</title>
+</head>
+<body>            
+
+    <!--- Navigation Bar-->   
+    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light ">
+        <div class="container-fluid">
+            <a class="navbar-brand" id="LRC" href="#">Portafolio - LRC</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav mr-auto"></ul>    
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#AboutMeCont">About</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>    
+    </nav>
+  
+<!--Carousel-->
+<div class="container-fluid" id="carouselcontainer">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./Images/Laptop.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <h1 class="display-2">Cartaya House Inc</h1>
+                    <a href="contact.html" target="_blank" class="btn btn-outline-light btn-lg" role="button" id="button1">Get in Touch!</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./Images/web.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <h1 class="display-2">LRC App.  Development</h1>
+                    <a href="portfolio.html" target="_blank" class="btn btn-outline-light btn-lg" role="button" id="button2">Know my Work!</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./Images/Code.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <h1 class="display-2" id="responsive">LRC Web Design</h1>
+                    <a href="portfolio.html" target="_blank" class="btn btn-outline-light btn-lg" role="button" id="button3">Check It Out!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Jumbo About-->    
+<div class="container-fluid" id="AboutMeCont">
+    <div class="container padding" id="jumbo">
+        <div class="jumbotron">
+            <h1 class="display-4" id="About">About Me </h1>
+            <hr class="light" color="black">
+
+            <div class="row">
+                <div class="col-lg-3">
+                    <img class="img img-thumbnail" src="./Images/cartaya.png">  
+                </div>
+                <div class="col-lg-9" id="aboutmep">
+                    <p>Hello, my name is LRC, I´m studying to become a Full Stack Web Developer.
+                        <p>I´m currently studying UCF Coding BootCamp. I have gained experience in HTML5, CSS and JavaScript.</p>
+                        
+                        <p>Thank you for exploring my portfolio.</p>
+                        I've included some of my favorite projects as well as my contact information. I look forward to hearing from you soon!
+                        </p>
+                    <!-- <p>Comment for page</p> -->
+                </div>    
+            </div>
+        </div>
+    </div> 
+</div>      
+
+<!--Footer-->
+<footer>
+    <div class="container-fluid padding">
+        <div class="row text center">
+            <div class="col-md-4">
+                <hr class="light" color="gray">
+                <h5>LRC</h5>
+                <hr class="light" color="gray">
+                    <p><i class="fas fa-dice-d20"></i> LRC CARTAYA HOUSE INC</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Adress: Kissimme FLorida</p>
+                    <p><i class="fas fa-mobile-alt"></i> Phone: 321-482-3885</p>
+                    <p><i class="fas fa-envelope"></i> Email: <a href="mailto:cartaya1@msn.com?Subject=I%20want%20info" target="_top" id="MainLinks">cartaya1@msn.com</a></p>
+            </div>
+            <div class="col-md-4">
+                <hr class="light" color="gray">
+                <h5>Main Links</h5>
+                <hr class="light" color="gray">
+                    <p><a href="index.html#AboutMeCont" id="MainLinks">About</a></p>
+                    <p><a href="portfolio.html" id="MainLinks">Portfolio</a></p>
+                    <p><a href="contact.html" id="MainLinks">Contact</a></p>   
+            </div>
+            <div class="col-md-4">
+                <hr class="light" color="gray">
+                <h5>Media's Sites</h5>
+                <hr class="light" color="gray">
+                    <p><a href="https://github.com/cartaya1" target="_blank" id="SitesOf"><i class="fab fa-github"></i></i> Github</a></p>
+                    <p><a href="https://www.youtube.com/channel/" target="_blank" id="SitesOf"><i class="fab fa-youtube"></i>Cartaya's MusicalTheater</a></p>
+                    <p><a href="https://twitter.com/@Cartayas_USA" target="_blank" id="SitesOf"><i class="fab fa-twitter"></i>@Cartayas_USA</a></p>
+                    <p><a href="https://www.instagram.com/Cartayas_USA" target="_blank" id="SitesOf"><i class="fab fa-instagram"></i>Cartayas_USA</a></p>
+                    <p><a href="https://mi webpage.cartaya1.html" target="_blank" id="SitesOf"><i class="fas fa-link"></i>www.cartayas.com</a></p>
+                    <p><a href="https://www.linkedin.com/in/cartaya1 target="_blank" id="SitesOf"><i class="fab fa-linkedin"></i></i> LinkedIn</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="col-12">
+        <hr class="light" color="gray">
+        <h5 id="CopyR">&copy; cartaya's house inc.</h5>
+    </div>
+</footer>
+        
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>    
+</body>
+</html>
+

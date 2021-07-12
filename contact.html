@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5c7f223443.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contacts </title>    
+</head>
+<body>
+    <!--- Navigation Bar-->   
+    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light ">
+        <div class="container-fluid">
+            <a class="navbar-brand" id="LRC" href="index.html">Portafolio - LRC</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav mr-auto"></ul>    
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html#AboutMeCont">About</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>    
+    </nav>
+    
+    <!--Contact Form-->
+    <div class="container-md">
+        <div class="jumbotron" id="contact">
+            <h1 class="display-4" id="disp5">Get In Touch!</h1>
+            <hr class="light" color="white">
+            <div class="container contact-form">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><i class="fas fa-dice-d20"></i> LRC CARTAYA HOUSE INC</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Adress: Kissimme FLorida</p>
+                        <p><i class="fas fa-mobile-alt"></i> Phone: 321-482-3885</p>
+                        <p><i class="fas fa-envelope"></i> Email: cartaya1@msn.com</p>
+
+                        <div class="row text-center padding" id="socialnet">
+                            <div class="col-md-3 social padding">
+                                <a href="https://github.com/cartaya1" target="_blank"><i class="fab fa-github" id="facebook"></i></a>
+                            </div>
+                            <div class="col-md-3 social padding">
+                                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin" id="instagram"></i></a>                            
+                            </div>    
+                        </div>    
+
+                        
+                        <div class="row text-center padding">
+                            <div class="col-md-3 social padding">
+                                <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" id="facebook"></i></a>
+                            </div>
+                            <div class="col-md-3 social padding">
+                                <a href="https://www.youtube.com/channel/" target="_blank"><i class="fa fa-youtube" id="youtube"></i></a>
+                            </div>    
+                        </div>
+                        <div class="row text-center padding" id="socialnet">
+                            <div class="col-md-3 social padding">
+                                <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" id="soundcloud"></i></a>
+                            </div>
+                            <div class="col-md-3 social padding">
+                                <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" id="instagram"></i></a>                            
+                            </div>    
+                        </div>    
+
+                    </div>
+                        <div class="col-md-6">
+                            <form method="POST">
+                                <div class="form-group">
+                                    <label>Name</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>Email</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>Message</label>
+                                    <textarea class="form-control" rows="5"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <button class="btn btn-outline-light btn-block btn-lg" value="Send Email" onclick="sendEmail()">Send</button>
+                                </div>
+                            </form>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+    <!--Footer-->
+    <footer>
+        <div class="container-fluid padding">
+            <div class="row text center">
+                <div class="col-md-4">
+                    <hr class="light" color="gray">
+                    <h5>LRC</h5>
+                    <hr class="light" color="gray">
+                        <p><i class="fas fa-dice-d20"></i> LRC CARTAYA HOUSE INC</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Adress: Kissimme FLorida</p>
+                        <p><i class="fas fa-mobile-alt"></i> Phone: 321-482-3885</p>
+                        <p><i class="fas fa-envelope"></i> Email: <a href="mailto:cartaya1@msn.com?Subject=I%20want%20info" target="_top" id="MainLinks">cartaya1@msn.com</a></p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light" color="gray">
+                    <h5>Main Links</h5>
+                    <hr class="light" color="gray">
+                        <p><a href="index.html#AboutMeCont" id="MainLinks">About</a></p>
+                        <p><a href="portfolio.html" id="MainLinks">Portfolio</a></p>
+                        <p><a href="contact.html" id="MainLinks">Contact</a></p>   
+                </div>
+                <div class="col-md-4">
+                    <hr class="light" color="gray">
+                    <h5>Madia's Sites</h5>
+                    <hr class="light" color="gray">
+                        <p><a href="https://github.com/cartaya1" target="_blank" id="SitesOf"><i class="fab fa-github"></i></i> Github</a></p>
+                        <p><a href="https://www.youtube.com/channel/" target="_blank" id="SitesOf"><i class="fab fa-youtube"></i>Cartaya's MusicalTheater</a></p>
+                        <p><a href="https://twitter.com/@Cartayas_USA" target="_blank" id="SitesOf"><i class="fab fa-twitter"></i>@Cartayas_USA</a></p>
+                        <p><a href="https://www.instagram.com/Cartayas_USA" target="_blank" id="SitesOf"><i class="fab fa-instagram"></i>Cartayas_USA</a></p>
+                        <p><a href="https://www.cartayas.html" target="_blank" id="SitesOf"><i class="fas fa-link"></i>www.cartayas.com</a></p>
+                        <p><a href="https://www.linkedin.com/in/cartaya1 target="_blank" id="SitesOf"><i class="fab fa-linkedin"></i></i> LinkedIn</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12">
+            <hr class="light" color="gray">
+            <h5 id="CopyR">&copy; cartaya's house inc.</h5>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>    
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+</body>
+</html>
