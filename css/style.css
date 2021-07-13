@@ -103,9 +103,8 @@ body{ padding-top: 20px;}
     padding-top: 10px;
 }
 
-
 #portfolio {
-    background-image: url(../NewPortafolio/images/code.jpg);
+    background-image: url(../images/code.jpg);
     background-size: cover;
     padding-top: 70px;
     width: 100%;
@@ -146,7 +145,7 @@ body{ padding-top: 20px;}
 }
 
 #contact {
-    background-image: url(../NewPortafolio/images/web.jpg);
+    background-image: url(../images/web.jpg);
     background-size: cover;
     padding-top: 70px;
     width: 100%;
