@@ -23,4 +23,4 @@ Portfolio
 
 ## Web Page IMAGE
 
-https://cartaya1.github.io/NewPortafolio/images/image.png
+https://cartaya1.github.io/NewPortafolio/Images/Image.png

@@ -1,7 +1,3 @@
-/*@font-face {
-    font-family: 'Times New Roman', Times, serif;
-}*/
-
 html, body {
     height: 100%;
     width: 100%;
@@ -76,6 +72,7 @@ body{ padding-top: 20px;}
 
 .display-2 {
     font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
 }
 
 #button2 {
@@ -112,13 +109,13 @@ body{ padding-top: 20px;}
     background-size: cover;
     padding-top: 70px;
     width: 100%;
-    height: 800px;
+    height: 800px;    
     
 }
 
 #linksPortfolio {
     padding-top: 10px;
-}
+    }
 
 .flexbox-container {
     display: flex;
@@ -126,7 +123,7 @@ body{ padding-top: 20px;}
     justify-content: space-around;
     align-items: center;
     align-content: center;
-}
+    }
 
 /* Contact Form */
 
@@ -143,7 +140,7 @@ body{ padding-top: 20px;}
     margin-top: -30px;
     font-family: 'Times New Roman', Times, serif;
     letter-spacing: 2px;
-    color: white;
+    color: black;
     text-align: center;
     padding: 1%;
 }
@@ -204,17 +201,23 @@ body{ padding-top: 20px;}
 }
 
 .card-title {
-    color: white;
+    color: black;
+    font-weight: bold;
     text-align: center;
     letter-spacing: 2px;
 }
 
 #boton {
     margin-left: 40px;
+    color: black;
+    font-weight: bold;
+    border-color: black;
+    border-width: 2%;
 }
 
 #dados {
     margin-top: 20px;
+    
 }
 
 #dados2 {
