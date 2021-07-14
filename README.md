@@ -25,6 +25,6 @@ Portfolio
 
 https://cartaya1.github.io/NewPortafolio/Images/image.png
 
-## Resume
+## Resume LRC
 
 https://cartaya1.github.io/NewPortafolio/images/resume-lrc.pdf
