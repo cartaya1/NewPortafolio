@@ -23,4 +23,8 @@ Portfolio
 
 ## Web Page IMAGE
 
-https://cartaya1.github.io/NewPortafolio/Images/Image.png
+https://cartaya1.github.io/NewPortafolio/Images/image.png
+
+## Resume
+
+https://cartaya1.github.io/NewPortafolio/images/Resume-LRC.pdf
